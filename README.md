@@ -17,19 +17,19 @@ GoChain is a simple Blockchain. It uses Proof-of-Work to mine blocks, stores dat
 
 ## Technical Concepts
 1. Block Structure
-Each block contains:
+- Each block contains:
 
-Index: Position in chain
+- Index: Position in chain
 
-Timestamp: Creation time
+- Timestamp: Creation time
 
-Data: Payload (e.g., transaction)
+- Data: Payload (e.g., transaction)
 
-PrevHash: Hash of previous block
+- PrevHash: Hash of previous block
 
-Hash: Current block hash
+- Hash: Current block hash
 
-Nonce: PoW nonce used to mine this block
+- Nonce: PoW nonce used to mine this block
 
 2. Proof-of-Work
 A simple PoW algorithm ensures each block’s hash starts with a fixed number of 0s based on difficulty. Mining finds a nonce that satisfies this.

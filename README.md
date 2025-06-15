@@ -3,7 +3,7 @@
 GoChain is a simple Blockchain. It uses Proof-of-Work to mine blocks, stores data in a JSON file, and includes an interactive CLI to visualize how blockchains work at a fundamental level.
 
 ---
-
+![alt text](image.png)
 ## Features
 
 - Custom Blockchain structure with chaining of blocks
